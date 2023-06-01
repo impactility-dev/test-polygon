@@ -19,10 +19,11 @@
     ],
     "properties": {
       "@context": {
-          "type": "array",
-          "items": {
-            "type": "object"
-          }
+        "type": [
+            "string",
+            "array",
+            "object"
+         ]
       },
       "id": {
         "type": "string"
