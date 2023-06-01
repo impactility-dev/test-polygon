@@ -10,7 +10,7 @@
     },
     "gender": {
       "@id": "schema-id:gender",
-      "@type": "https://schema.org/Text"
+      "@type": "xsd:string"
     }
   }
   ]
