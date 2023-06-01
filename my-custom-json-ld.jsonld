@@ -5,7 +5,7 @@
       "@protected": true,
       "id": "@id",
       "type": "@type",
-      "ProofOfDaoLongevity": {
+      "ProofOfGender": {
         "@id": "https://raw.githubusercontent.com/impactility-dev/test-polygon/main/my-custom-json-ld.jsonld",
         "@context": {
           "@version": 1.1,
@@ -14,7 +14,7 @@
           "type": "@type",
           "vocab": "https://github.com/impactility-dev/test-polygon/blob/main/my-custom-vocab.md#",
           "xsd": "http://www.w3.org/2001/XMLSchema#",
-          "entryDate": {
+          "gender": {
             "@id": "vocab:gender",
             "@type": "xsd:string"
           }
