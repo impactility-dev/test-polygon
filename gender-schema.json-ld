@@ -2,7 +2,7 @@
   "@context": [
     {
     "string": {
-      "@id": "https://schema.affinidi.com/@did:elem:EiAAEjp2tqfWSjBLnILV01wSbvsJvDHWBNyenVHZRaB0FA/stringV1-0.json-ld",
+      "@id": "https://schema.affinidi.com/@did:elem:EiAAEjp2tqfWSjBLnILV01wSbvsJvDHWBNyenVHZRaB0FA/stringV1-0.jsonld",
       "@context": {
         "@version": 1.1,
         "@protected": true
