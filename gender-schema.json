@@ -1,13 +1,13 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://schema.affinidi.com/@did:elem:EiAAEjp2tqfWSjBLnILV01wSbvsJvDHWBNyenVHZRaB0FA/stringV1-1.json",
+  "$id": "https://raw.githubusercontent.com/impactility-dev/test-polygon/main/gender-schema.json",
   "$metadata": {
     "version": 1,
     "revision": 1,
     "discoverable": true,
     "uris": {
-      "jsonLdContext": "https://schema.affinidi.com/@did:elem:EiAAEjp2tqfWSjBLnILV01wSbvsJvDHWBNyenVHZRaB0FA/stringV1-1.jsonld",
-      "jsonSchema": "https://schema.affinidi.com/@did:elem:EiAAEjp2tqfWSjBLnILV01wSbvsJvDHWBNyenVHZRaB0FA/stringV1-1.json"
+      "jsonLdContext": "https://raw.githubusercontent.com/impactility-dev/test-polygon/main/gender-schema.jsonld",
+      "jsonSchema": "https://raw.githubusercontent.com/impactility-dev/test-polygon/main/gender-schema.json"
     }
   },
   "title": "string",
