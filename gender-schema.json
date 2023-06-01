@@ -6,7 +6,7 @@
     "revision": 1,
     "discoverable": true,
     "uris": {
-      "jsonLdContext": "https://raw.githubusercontent.com/impactility-dev/test-polygon/main/gender-schema.jsonld",
+      "jsonLdContext": "https://raw.githubusercontent.com/impactility-dev/test-polygon/main/gender-schema.json-ld",
       "jsonSchema": "https://raw.githubusercontent.com/impactility-dev/test-polygon/main/gender-schema.json"
     }
   },
