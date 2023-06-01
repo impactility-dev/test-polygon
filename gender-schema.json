@@ -1,15 +1,24 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://schema.affinidi.com/@did:elem:EiAAEjp2tqfWSjBLnILV01wSbvsJvDHWBNyenVHZRaB0FA/stringV1-1.json",
+  "$metadata": {
+    "version": 1,
+    "revision": 1,
+    "discoverable": true,
+    "uris": {
+      "jsonLdContext": "https://schema.affinidi.com/@did:elem:EiAAEjp2tqfWSjBLnILV01wSbvsJvDHWBNyenVHZRaB0FA/stringV1-1.jsonld",
+      "jsonSchema": "https://schema.affinidi.com/@did:elem:EiAAEjp2tqfWSjBLnILV01wSbvsJvDHWBNyenVHZRaB0FA/stringV1-1.json"
+    }
+  },
+  "title": "string",
+  "description": "for gender",
   "type": "object",
   "required": [
     "@context",
-    "id",
     "type",
+    "issuer",
     "issuanceDate",
-    "credentialSubject",
-    "credentialSchema",
-    "credentialStatus",
-    "issuer"
+    "credentialSubject"
   ],
   "properties": {
     "@context": {
@@ -20,7 +29,8 @@
       ]
     },
     "id": {
-      "type": "string"
+      "type": "string",
+      "format": "uri"
     },
     "type": {
       "type": [
@@ -55,6 +65,19 @@
       "type": "string",
       "format": "date-time"
     },
+    "credentialSubject": {
+      "type": "object",
+      "properties": {
+        "gender": {
+          "title": "gender",
+          "type": "string",
+          "description": "describe gender "
+        }
+      },
+      "required": [
+        "gender"
+      ]
+    },
     "credentialSchema": {
       "type": "object",
       "required": [
@@ -68,52 +91,6 @@
         },
         "type": {
           "type": "string"
-        }
-      }
-    },
-    "subjectPosition": {
-      "type": "string",
-      "enum": [
-        "none",
-        "index",
-        "value"
-      ]
-    },
-    "merklizationRootPosition": {
-      "type": "string",
-      "enum": [
-        "none",
-        "index",
-        "value"
-      ]
-    },
-    "revNonce": {
-      "type": "integer"
-    },
-    "version": {
-      "type": "integer"
-    },
-    "updatable": {
-      "type": "boolean"
-    },
-    "credentialSubject": {
-      "type": "object",
-      "required": [
-        "id",
-        "gender",
-        "documentType"
-      ],
-      "properties": {
-        "id": {
-          "title": "Credential Subject ID",
-          "type": "string",
-          "format": "uri"
-        },
-        "gender": {
-          "type": "string"
-        },
-        "documentType": {
-          "type": "integer"
         }
       }
     }
