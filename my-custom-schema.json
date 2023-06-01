@@ -4,7 +4,7 @@
     "$metadata": {
       "uris": {
         "jsonLdContext": "https://raw.githubusercontent.com/impactility-dev/test-polygon/main/my-custom-json-ld.jsonld",
-        "jsonSchema": "https://raw.githubusercontent.com/0xPolygonID/tutorial-examples/main/credential-schema/proof-of-dao-longevity.json"
+        "jsonSchema": "https://raw.githubusercontent.com/impactility-dev/test-polygon/main/my-custom-schema.json"
       }
     },
     "required": [
