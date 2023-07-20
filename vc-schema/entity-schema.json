@@ -6,8 +6,8 @@
     "revision": 1,
     "discoverable": true,
     "uris": {
-      "jsonLdContext": "<>entity-schema-json-ld.jsonld",
-      "jsonSchema": "<>entity-schema.json"
+      "jsonLdContext": "https://raw.githubusercontent.com/impactility-dev/test-polygon/main/vc-schema/entity-schema-json-ld.jsonld",
+      "jsonSchema": "https://raw.githubusercontent.com/impactility-dev/test-polygon/main/vc-schema/entity-schema.json"
     }
   },
   "title": "Entity schema",
