@@ -1,0 +1,41 @@
+{
+	"@context": [
+		{
+			"string": {
+				"@id": "https://schema.affinidi.com/@did:elem:EiAAEjp2tqfWSjBLnILV01wSbvsJvDHWBNyenVHZRaB0FA/stringV1-0.jsonld",
+				"@context": {
+					"@version": 1.1,
+					"@protected": true
+				}
+			},
+			"entityName": {
+				"@id": "schema-id:entityName",
+				"@type": "xsd:string"
+			},
+			"registrationNumber": {
+				"@id": "schema-id:registrationNumber",
+				"@type": "xsd:string"
+			},
+			"address": {
+				"@id": "schema-id:address",
+				"@type": "xsd:string"
+			},
+			"natureOfBusiness": {
+				"@id": "schema-id:natureOfBusiness",
+				"@type": "xsd:string"
+			},
+			"productionPlantType": {
+				"@id": "schema-id:productionPlantType",
+				"@type": "xsd:string"
+			},
+			"productionPlantCapacity": {
+				"@id": "schema-id:productionPlantCapacity",
+				"@type": "xsd:string"
+			},
+			"productionPlantAddress": {
+				"@id": "schema-id:productionPlantAddress",
+				"@type": "xsd:string"
+			}
+		}
+	]
+}

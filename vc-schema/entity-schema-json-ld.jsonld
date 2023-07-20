@@ -1,0 +1,49 @@
+{
+  "@context": [
+    {
+      "@version": 1.1,
+      "@protected": true,
+      "id": "@id",
+      "type": "@type",
+      "ProofOfEntity": {
+        "@id": "https://raw.githubusercontent.com/impactility-dev/test-polygon/main/my-custom-json-ld.jsonld",
+        "@context": {
+          "@version": 1.1,
+          "@protected": true,
+          "id": "@id",
+          "type": "@type",
+          "vocab": "https://github.com/impactility-dev/test-polygon/blob/main/my-custom-vocab.md#",
+          "xsd": "http://www.w3.org/2001/XMLSchema#",
+          "entityName": {
+            "@id": "vocab:entityName",
+            "@type": "xsd:string"
+          },
+					"registrationNumber": {
+            "@id": "vocab:registrationNumber",
+            "@type": "xsd:string"
+          },
+					"address": {
+            "@id": "vocab:address",
+            "@type": "xsd:string"
+          },
+					"natureOfBusiness": {
+            "@id": "vocab:natureOfBusiness",
+            "@type": "xsd:string"
+          },
+					"productionPlantType": {
+            "@id": "vocab:productionPlantType",
+            "@type": "xsd:string"
+          },
+					"productionPlantCapacity": {
+            "@id": "vocab:productionPlantCapacity",
+            "@type": "xsd:string"
+          },
+					"productionPlantAddress": {
+            "@id": "vocab:productionPlantAddress",
+            "@type": "xsd:string"
+          }
+        }
+      }
+    }
+  ]
+}
