@@ -1,0 +1,47 @@
+{
+    "@context": [
+        {
+            "@protected": true,
+            "@version": 1.1,
+            "id": "@id",
+            "type": "@type",
+            "object": {
+                "@context": {
+                    "@propagate": true,
+                    "@protected": true,
+                    "polygon-vocab": "urn:uuid:d95a54c6-ddda-47d7-8aa8-6e1dffd9b56e#",
+                    "xsd": "http://www.w3.org/2001/XMLSchema#",
+                    "productionPlantAddress": {
+                        "@id": "polygon-vocab:productionPlantAddress",
+                        "@type": "xsd:string"
+                    },
+                    "productionPlantCapacity": {
+                        "@id": "polygon-vocab:productionPlantCapacity",
+                        "@type": "xsd:string"
+                    },
+                    "productionPlantType": {
+                        "@id": "polygon-vocab:productionPlantType",
+                        "@type": "xsd:string"
+                    },
+                    "natureOfBusiness": {
+                        "@id": "polygon-vocab:natureOfBusiness",
+                        "@type": "xsd:string"
+                    },
+                    "address": {
+                        "@id": "polygon-vocab:address",
+                        "@type": "xsd:string"
+                    },
+                    "registrationNumber": {
+                        "@id": "polygon-vocab:registrationNumber",
+                        "@type": "xsd:string"
+                    },
+                    "entityName": {
+                        "@id": "polygon-vocab:entityName",
+                        "@type": "xsd:string"
+                    }
+                },
+                "@id": "urn:uuid:b415014b-84b1-430d-ae13-a9581090eb7a"
+            }
+        }
+    ]
+}
