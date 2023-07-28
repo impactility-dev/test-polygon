@@ -1,7 +1,7 @@
 {
     "$metadata": {
         "uris": {
-            "jsonLdContext": "https://example.com/path/to/file/context.jsonld"
+            "jsonLdContext": "https://raw.githubusercontent.com/impactility-dev/test-polygon/main/Height.jsonld"
         },
         "type": "Height",
         "version": "1"
