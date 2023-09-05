@@ -1,23 +1,23 @@
 {
-  "@context": [
-    {
-      "@protected": true,
-      "@version": 1.1,
-      "id": "@id",
-      "type": "@type",
-      "UserRole": {
-        "@context": {
-          "@propagate": true,
-          "@protected": true,
-          "polygon-vocab": "urn:uuid:7f230f4e-edc7-4b96-bba5-3fccd09bf411#",
-          "xsd": "http://www.w3.org/2001/XMLSchema#",
-          "role": {
-            "@id": "polygon-vocab:role",
-            "@type": "xsd:integer"
-          }
-        },
-        "@id": "urn:uuid:c3a9782d-55d6-4b6a-86ba-a57fe9bd0c87"
-      }
-    }
-  ]
+    "@context": [
+        {
+            "@protected": true,
+            "@version": 1.1,
+            "id": "@id",
+            "type": "@type",
+            "UserRole": {
+                "@context": {
+                    "@propagate": true,
+                    "@protected": true,
+                    "polygon-vocab": "urn:uuid:7f230f4e-edc7-4b96-bba5-3fccd09bf411#",
+                    "xsd": "http://www.w3.org/2001/XMLSchema#",
+                    "role": {
+                        "@id": "polygon-vocab:role",
+                        "@type": "xsd:integer"
+                    }
+                },
+                "@id": "urn:uuid:c3a9782d-55d6-4b6a-86ba-a57fe9bd0c87"
+            }
+        }
+    ]
 }
