@@ -17,7 +17,7 @@
               "role": {
                 "description": "Role of the user",
                 "title": "Role of the user",
-                "type": "number"
+                "type": "integer"
               },
               "id": {
                 "description": "Stores the DID of the subject that owns the credential",
