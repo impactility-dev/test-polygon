@@ -1,0 +1,27 @@
+{
+    "@context": [
+        {
+            "@protected": true,
+            "@version": 1.1,
+            "id": "@id",
+            "type": "@type",
+            "BoardMember": {
+                "@context": {
+                    "@propagate": true,
+                    "@protected": true,
+                    "polygon-vocab": "urn:uuid:560e24e9-03f0-4c0b-bb77-052a898fccdb#",
+                    "xsd": "http://www.w3.org/2001/XMLSchema#",
+                    "email": {
+                        "@id": "polygon-vocab:email",
+                        "@type": "xsd:string"
+                    },
+                    "name": {
+                        "@id": "polygon-vocab:name",
+                        "@type": "xsd:string"
+                    }
+                },
+                "@id": "urn:uuid:4a4328bc-16ee-423b-8e9a-b0d20717357a"
+            }
+        }
+    ]
+}
