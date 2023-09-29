@@ -4,7 +4,7 @@
       "jsonLdContext": "https://raw.githubusercontent.com/impactility-dev/test-polygon/main/BoardMember.jsonld"
     },
     "type": "BoardMember",
-    "version": "1"
+    "version": "2"
   },
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "description": "Schema Defining board member",
