@@ -4,7 +4,7 @@
             "jsonLdContext": "https://raw.githubusercontent.com/impactility-dev/test-polygon/main/KYCnew/KYCnew.jsonld"
         },
         "version": "1.0",
-        "type": "1"
+        "type": "KYCnew"
     },
     "$schema": "https://json-schema.org/draft/2020-12/schema",
     "description": "KYC schema but with 11 mar 2024 schema builder variant",

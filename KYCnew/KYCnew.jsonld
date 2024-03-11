@@ -1,7 +1,11 @@
 {
     "@context": [
         {
-            "1": {
+            "@protected": true,
+            "@version": 1.1,
+            "id": "@id",
+            "type": "@type",
+            "KYCnew": {
                 "@context": {
                     "@propagate": true,
                     "@protected": true,
@@ -13,11 +17,7 @@
                     }
                 },
                 "@id": "urn:uuid:b4df4631-eabe-4ae1-b72c-2d86dcf48bb6"
-            },
-            "@protected": true,
-            "@version": 1.1,
-            "id": "@id",
-            "type": "@type"
+            }
         }
     ]
 }
