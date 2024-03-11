@@ -1,0 +1,23 @@
+{
+    "@context": [
+        {
+            "@protected": true,
+            "@version": 1.1,
+            "id": "@id",
+            "type": "@type",
+            "OnChainKYC": {
+                "@context": {
+                    "@propagate": true,
+                    "@protected": true,
+                    "polygon-vocab": "urn:uuid:331cfa5b-7037-4532-a003-adf51a3de124#",
+                    "xsd": "http://www.w3.org/2001/XMLSchema#",
+                    "age": {
+                        "@id": "polygon-vocab:age",
+                        "@type": "xsd:string"
+                    }
+                },
+                "@id": "urn:uuid:323f8cd9-27e4-4417-82a8-018fbadbf566"
+            }
+        }
+    ]
+}
