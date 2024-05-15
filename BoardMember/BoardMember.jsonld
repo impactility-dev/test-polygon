@@ -9,7 +9,7 @@
                 "@context": {
                     "@propagate": true,
                     "@protected": true,
-                    "polygon-vocab": "urn:uuid:560e24e9-03f0-4c0b-bb77-052a898fccdb#",
+                    "polygon-vocab": "urn:uuid:be206500-c75e-4399-9be8-55929227b689#",
                     "xsd": "http://www.w3.org/2001/XMLSchema#",
                     "email": {
                         "@id": "polygon-vocab:email",
@@ -20,7 +20,7 @@
                         "@type": "xsd:string"
                     }
                 },
-                "@id": "urn:uuid:4a4328bc-16ee-423b-8e9a-b0d20717357a"
+                "@id": "urn:uuid:f288e836-f103-47fd-bd8e-ada50a061f67"
             }
         }
     ]
