@@ -1,0 +1,168 @@
+{
+    "$metadata": {
+        "uris": {
+            "jsonLdContext": "https://raw.githubusercontent.com/impactility-dev/test-polygon/main/Plant/Plant.jsonld"
+        },
+        "version": "1.0",
+        "type": "Plant"
+    },
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "description": "Schema for Plant",
+    "title": "Plant",
+    "properties": {
+        "credentialSubject": {
+            "description": "Stores the data of the credential",
+            "title": "Credential subject",
+            "properties": {
+                "id": {
+                    "description": "Stores the DID of the subject that owns the credential",
+                    "title": "Credential subject ID",
+                    "format": "uri",
+                    "type": "string"
+                },
+                "plantName": {
+                    "description": "Name of the Plant",
+                    "title": "Name of the Plant",
+                    "type": "string"
+                },
+                "plantType": {
+                    "description": "Type of the Plant",
+                    "title": "Type of the Plant",
+                    "type": "string"
+                },
+                "registrationNumber": {
+                    "description": "Registration number of the Plant",
+                    "title": "Registration number of the Plant",
+                    "type": "string"
+                },
+                "vatNumber": {
+                    "description": "VAT number for the Plant",
+                    "title": "VAT number for the Plant",
+                    "type": "string"
+                },
+                "address": {
+                    "description": "Address of the Plant",
+                    "title": "Address of the Plant",
+                    "type": "string"
+                },
+                "zipcode": {
+                    "description": "Zipcode of the Plant",
+                    "title": "Zipcode of the Plant",
+                    "type": "string"
+                },
+                "plantId": {
+                    "description": "Unique ID for Plant",
+                    "title": "Unique ID for Plant",
+                    "type": "string"
+                },
+                "verificationNumber": {
+                    "description": "Verification Number of Plant",
+                    "title": "Verification Number of Plant",
+                    "type": "string"
+                }
+            },
+            "required": [
+                "plantName",
+                "plantType",
+                "registrationNumber",
+                "vatNumber",
+                "address",
+                "zipcode",
+                "plantId",
+                "verificationNumber"
+            ],
+            "type": "object"
+        },
+        "@context": {
+            "type": [
+                "string",
+                "array",
+                "object"
+            ]
+        },
+        "expirationDate": {
+            "format": "date-time",
+            "type": "string"
+        },
+        "id": {
+            "type": "string"
+        },
+        "issuanceDate": {
+            "format": "date-time",
+            "type": "string"
+        },
+        "issuer": {
+            "type": [
+                "string",
+                "object"
+            ],
+            "format": "uri",
+            "properties": {
+                "id": {
+                    "format": "uri",
+                    "type": "string"
+                }
+            },
+            "required": [
+                "id"
+            ]
+        },
+        "type": {
+            "type": [
+                "string",
+                "array"
+            ],
+            "items": {
+                "type": "string"
+            }
+        },
+        "credentialSchema": {
+            "properties": {
+                "id": {
+                    "format": "uri",
+                    "type": "string"
+                },
+                "type": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "id",
+                "type"
+            ],
+            "type": "object"
+        },
+        "credentialStatus": {
+            "description": "Allows the discovery of information about the current status of the credential, such as whether it is suspended or revoked.",
+            "title": "Credential Status",
+            "properties": {
+                "id": {
+                    "description": "Id URL of the credentialStatus.",
+                    "title": "Id",
+                    "format": "uri",
+                    "type": "string"
+                },
+                "type": {
+                    "description": "Expresses the credential status type (method). The value should provide enough information to determine the current status of the credential.",
+                    "title": "Type",
+                    "type": "string"
+                }
+            },
+            "required": [
+                "id",
+                "type"
+            ],
+            "type": "object"
+        }
+    },
+    "required": [
+        "credentialSubject",
+        "@context",
+        "id",
+        "issuanceDate",
+        "issuer",
+        "type",
+        "credentialSchema"
+    ],
+    "type": "object"
+}
