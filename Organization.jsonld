@@ -1,0 +1,43 @@
+{
+    "@context": [
+        {
+            "@protected": true,
+            "@version": 1.1,
+            "id": "@id",
+            "type": "@type",
+            "Organization": {
+                "@context": {
+                    "@propagate": true,
+                    "@protected": true,
+                    "polygon-vocab": "urn:uuid:db815569-4989-49a6-a124-d04c5615a66c#",
+                    "xsd": "http://www.w3.org/2001/XMLSchema#",
+                    "natureOfBusiness": {
+                        "@id": "polygon-vocab:natureOfBusiness",
+                        "@type": "xsd:string"
+                    },
+                    "cin": {
+                        "@id": "polygon-vocab:cin",
+                        "@type": "xsd:string"
+                    },
+                    "email": {
+                        "@id": "polygon-vocab:email",
+                        "@type": "xsd:string"
+                    },
+                    "dunsId": {
+                        "@id": "polygon-vocab:dunsId",
+                        "@type": "xsd:string"
+                    },
+                    "address": {
+                        "@id": "polygon-vocab:address",
+                        "@type": "xsd:string"
+                    },
+                    "name": {
+                        "@id": "polygon-vocab:name",
+                        "@type": "xsd:string"
+                    }
+                },
+                "@id": "urn:uuid:73c0ef6b-0fd7-46c4-85fc-1b60d49686d9"
+            }
+        }
+    ]
+}
