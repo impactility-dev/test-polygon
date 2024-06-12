@@ -9,34 +9,64 @@
                 "@context": {
                     "@propagate": true,
                     "@protected": true,
-                    "polygon-vocab": "urn:uuid:db815569-4989-49a6-a124-d04c5615a66c#",
+                    "polygon-vocab": "urn:uuid:b9b64da6-3d08-449a-9829-ffe2d932a559#",
                     "xsd": "http://www.w3.org/2001/XMLSchema#",
-                    "natureOfBusiness": {
-                        "@id": "polygon-vocab:natureOfBusiness",
-                        "@type": "xsd:string"
-                    },
-                    "cin": {
-                        "@id": "polygon-vocab:cin",
-                        "@type": "xsd:string"
-                    },
-                    "email": {
-                        "@id": "polygon-vocab:email",
-                        "@type": "xsd:string"
-                    },
-                    "dunsId": {
-                        "@id": "polygon-vocab:dunsId",
-                        "@type": "xsd:string"
-                    },
-                    "address": {
-                        "@id": "polygon-vocab:address",
-                        "@type": "xsd:string"
-                    },
                     "name": {
                         "@id": "polygon-vocab:name",
                         "@type": "xsd:string"
+                    },
+                    "orgType": {
+                        "@id": "polygon-vocab:orgType",
+                        "@type": "xsd:string"
+                    },
+                    "website": {
+                        "@id": "polygon-vocab:website",
+                        "@type": "xsd:string"
+                    },
+                    "corporateID": {
+                        "@id": "polygon-vocab:corporateID",
+                        "@type": "xsd:string"
+                    },
+                    "address": {
+                        "@context": {
+                            "line1": {
+                                "@id": "polygon-vocab:line1",
+                                "@type": "xsd:string"
+                            },
+                            "zipcode": {
+                                "@id": "polygon-vocab:zipcode",
+                                "@type": "xsd:string"
+                            },
+                            "country": {
+                                "@id": "polygon-vocab:country",
+                                "@type": "xsd:string"
+                            }
+                        },
+                        "@id": "polygon-vocab:address"
+                    },
+                    "admin": {
+                        "@context": {
+                            "firstName": {
+                                "@id": "polygon-vocab:firstName",
+                                "@type": "xsd:string"
+                            },
+                            "email": {
+                                "@id": "polygon-vocab:email",
+                                "@type": "xsd:string"
+                            },
+                            "phoneNumber": {
+                                "@id": "polygon-vocab:phoneNumber",
+                                "@type": "xsd:string"
+                            },
+                            "lastName": {
+                                "@id": "polygon-vocab:lastName",
+                                "@type": "xsd:string"
+                            }
+                        },
+                        "@id": "polygon-vocab:admin"
                     }
                 },
-                "@id": "urn:uuid:73c0ef6b-0fd7-46c4-85fc-1b60d49686d9"
+                "@id": "urn:uuid:3cf970aa-2255-47e3-ab25-fe8c0ec1115b"
             }
         }
     ]
