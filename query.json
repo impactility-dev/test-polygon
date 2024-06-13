@@ -16,21 +16,18 @@
           ],
           "context": "https://raw.githubusercontent.com/impactility-dev/test-polygon/main/Organization.jsonld",
           "credentialSubject": {
-            "name": {}
-	  },
-          "type": "Organization"
-        }
-      },
-      {
-        "circuitId": "credentialAtomicQuerySigV2",
-        "id": 1692791384,
-        "query": {
-          "allowedIssuers": [
-            "did:polygonid:polygon:amoy:2qXLotMuPYhRgZxk2WimubjgkxmeNMi7pofZBrksgg"
-          ],
-          "context": "https://raw.githubusercontent.com/impactility-dev/test-polygon/main/Organization.jsonld",
-          "credentialSubject": {
-            "admin.firstName": {}
+           "corporateID": {},
+        "name": {},
+        "orgType": {},
+        "type": {},
+        "website": {},
+            "admin.email": {},
+            "admin.firstName": {},
+            "admin.lastName": {},
+            "admin.phoneNumber": {},
+	"address.country": {},
+            "address.line1": {},
+            "address.zipcode": {},
           },
           "type": "Organization"
         }
