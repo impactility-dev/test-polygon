@@ -1,0 +1,42 @@
+{
+  "id": "60cf3331-d2b8-49a2-b0c7-dc225728ddae",
+  "typ": "application/iden3comm-plain-json",
+  "type": "https://iden3-communication.io/authorization/1.0/request",
+  "thid": "60cf3331-d2b8-49a2-b0c7-dc225728ddae",
+  "body": {
+    "callbackUrl": "http://192.168.0.103:3010/v1/authentication/callback?sessionID=78c20fc4-a807-4c1d-b478-b39d3ad33585",
+    "reason": "authentication",
+    "scope": [
+      {
+        "circuitId": "credentialAtomicQuerySigV2",
+        "id": 1692791384,
+        "query": {
+          "allowedIssuers": [
+            "did:polygonid:polygon:amoy:2qXLotMuPYhRgZxk2WimubjgkxmeNMi7pofZBrksgg"
+          ],
+          "context": "https://raw.githubusercontent.com/impactility-dev/test-polygon/main/Organization.jsonld",
+          "credentialSubject": {
+            "name": {},
+						"orgType":{}
+          },
+          "type": "Organization"
+        }
+      },
+      {
+        "circuitId": "credentialAtomicQuerySigV2",
+        "id": 1692791384,
+        "query": {
+          "allowedIssuers": [
+            "did:polygonid:polygon:amoy:2qXLotMuPYhRgZxk2WimubjgkxmeNMi7pofZBrksgg"
+          ],
+          "context": "https://raw.githubusercontent.com/impactility-dev/test-polygon/main/Organization.jsonld",
+          "credentialSubject": {
+            "admin.firstName": {}
+          },
+          "type": "Organization"
+        }
+      }
+    ]
+  },
+  "from": "did:polygonid:polygon:amoy:2qXLotMuPYhRgZxk2WimubjgkxmeNMi7pofZBrksgg"
+}
