@@ -16,9 +16,8 @@
           ],
           "context": "https://raw.githubusercontent.com/impactility-dev/test-polygon/main/Organization.jsonld",
           "credentialSubject": {
-            "name": {},
-						"orgType":{}
-          },
+            "name": {}
+	  },
           "type": "Organization"
         }
       },
