@@ -27,7 +27,7 @@
             "admin.phoneNumber": {},
 	"address.country": {},
             "address.line1": {},
-            "address.zipcode": {},
+            "address.zipcode": {}
           },
           "type": "Organization"
         }
