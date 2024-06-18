@@ -7,7 +7,7 @@
         "type": "Plant"
     },
     "$schema": "https://json-schema.org/draft/2020-12/schema",
-    "description": "Schema for Plant",
+    "description": "Schema for describing Plant ",
     "title": "Plant",
     "properties": {
         "credentialSubject": {
@@ -20,24 +20,24 @@
                     "format": "uri",
                     "type": "string"
                 },
-                "plantName": {
-                    "description": "Name of the Plant",
-                    "title": "Name of the Plant",
+                "facilityName": {
+                    "description": "Name of the Facility",
+                    "title": "Name of the Facility",
                     "type": "string"
                 },
-                "plantType": {
-                    "description": "Type of the Plant",
-                    "title": "Type of the Plant",
+                "facilityType": {
+                    "description": "Type of the Facility",
+                    "title": "Type of the Facility",
                     "type": "string"
                 },
                 "registrationNumber": {
-                    "description": "Registration number of the Plant",
-                    "title": "Registration number of the Plant",
+                    "description": "Registration Number of the Plant",
+                    "title": "Registration Number of the Plant",
                     "type": "string"
                 },
                 "vatNumber": {
-                    "description": "VAT number for the Plant",
-                    "title": "VAT number for the Plant",
+                    "description": "VAT Number for Plant",
+                    "title": "VAT Number for Plant",
                     "type": "string"
                 },
                 "address": {
@@ -45,31 +45,59 @@
                     "title": "Address of the Plant",
                     "type": "string"
                 },
-                "zipcode": {
-                    "description": "Zipcode of the Plant",
-                    "title": "Zipcode of the Plant",
+                "zipCode": {
+                    "description": "Zip code of the Plant",
+                    "title": "Zip code of the Plant",
                     "type": "string"
                 },
                 "plantId": {
-                    "description": "Unique ID for Plant",
-                    "title": "Unique ID for Plant",
+                    "description": "ID of the Plant",
+                    "title": "ID of the Plant",
                     "type": "string"
                 },
-                "verificationNumber": {
-                    "description": "Verification Number of Plant",
-                    "title": "Verification Number of Plant",
+                "process": {
+                    "description": "Process in the Plant, this will be JSON string",
+                    "title": "Process in the Plant",
                     "type": "string"
+                },
+                "documents": {
+                    "description": "Documents of the Plant, this will be JSON string",
+                    "title": "Documents of the Plant",
+                    "type": "string"
+                },
+                "location": {
+                    "description": "Location of the Plant",
+                    "title": "Location of the Plant",
+                    "properties": {
+                        "lat": {
+                            "description": "Latitude of the plant location",
+                            "title": "Latitude of the plant location",
+                            "type": "string"
+                        },
+                        "long": {
+                            "description": "Longitude of the plant location",
+                            "title": "Longitude of the plant location",
+                            "type": "string"
+                        }
+                    },
+                    "required": [
+                        "lat",
+                        "long"
+                    ],
+                    "type": "object"
                 }
             },
             "required": [
-                "plantName",
-                "plantType",
+                "facilityName",
+                "facilityType",
                 "registrationNumber",
                 "vatNumber",
                 "address",
-                "zipcode",
+                "zipCode",
                 "plantId",
-                "verificationNumber"
+                "process",
+                "documents",
+                "location"
             ],
             "type": "object"
         },
