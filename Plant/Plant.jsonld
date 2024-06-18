@@ -9,14 +9,14 @@
                 "@context": {
                     "@propagate": true,
                     "@protected": true,
-                    "polygon-vocab": "urn:uuid:0b19a8b2-5eed-452f-9599-e7a97630ac78#",
+                    "polygon-vocab": "urn:uuid:fced7106-b8a3-404a-9195-f880f0e8b137#",
                     "xsd": "http://www.w3.org/2001/XMLSchema#",
-                    "plantName": {
-                        "@id": "polygon-vocab:plantName",
+                    "facilityName": {
+                        "@id": "polygon-vocab:facilityName",
                         "@type": "xsd:string"
                     },
-                    "plantType": {
-                        "@id": "polygon-vocab:plantType",
+                    "facilityType": {
+                        "@id": "polygon-vocab:facilityType",
                         "@type": "xsd:string"
                     },
                     "registrationNumber": {
@@ -31,20 +31,37 @@
                         "@id": "polygon-vocab:address",
                         "@type": "xsd:string"
                     },
-                    "zipcode": {
-                        "@id": "polygon-vocab:zipcode",
+                    "zipCode": {
+                        "@id": "polygon-vocab:zipCode",
                         "@type": "xsd:string"
                     },
                     "plantId": {
                         "@id": "polygon-vocab:plantId",
                         "@type": "xsd:string"
                     },
-                    "verificationNumber": {
-                        "@id": "polygon-vocab:verificationNumber",
+                    "process": {
+                        "@id": "polygon-vocab:process",
                         "@type": "xsd:string"
+                    },
+                    "documents": {
+                        "@id": "polygon-vocab:documents",
+                        "@type": "xsd:string"
+                    },
+                    "location": {
+                        "@context": {
+                            "lat": {
+                                "@id": "polygon-vocab:lat",
+                                "@type": "xsd:string"
+                            },
+                            "long": {
+                                "@id": "polygon-vocab:long",
+                                "@type": "xsd:string"
+                            }
+                        },
+                        "@id": "polygon-vocab:location"
                     }
                 },
-                "@id": "urn:uuid:f0585bc2-2b84-49ed-8a73-b79e99794287"
+                "@id": "urn:uuid:53cfa101-dd8e-47bd-a622-78ce2912b1de"
             }
         }
     ]
