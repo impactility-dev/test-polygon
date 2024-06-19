@@ -1,0 +1,83 @@
+{
+    "@context": [
+        {
+            "@protected": true,
+            "@version": 1.1,
+            "id": "@id",
+            "type": "@type",
+            "Product": {
+                "@context": {
+                    "@propagate": true,
+                    "@protected": true,
+                    "polygon-vocab": "urn:uuid:592d7b0f-afeb-42fe-a97a-ac3ccafd2ca3#",
+                    "xsd": "http://www.w3.org/2001/XMLSchema#",
+                    "productName": {
+                        "@id": "polygon-vocab:productName",
+                        "@type": "xsd:string"
+                    },
+                    "description": {
+                        "@id": "polygon-vocab:description",
+                        "@type": "xsd:string"
+                    },
+                    "productType": {
+                        "@id": "polygon-vocab:productType",
+                        "@type": "xsd:string"
+                    },
+                    "feedstock": {
+                        "@id": "polygon-vocab:feedstock",
+                        "@type": "xsd:string"
+                    },
+                    "certificationBody": {
+                        "@id": "polygon-vocab:certificationBody",
+                        "@type": "xsd:string"
+                    },
+                    "uom": {
+                        "@id": "polygon-vocab:uom",
+                        "@type": "xsd:string"
+                    },
+                    "creditEquivalent": {
+                        "@id": "polygon-vocab:creditEquivalent",
+                        "@type": "xsd:double"
+                    },
+                    "mintable": {
+                        "@id": "polygon-vocab:mintable",
+                        "@type": "xsd:boolean"
+                    },
+                    "imageUrl": {
+                        "@id": "polygon-vocab:imageUrl",
+                        "@type": "xsd:string"
+                    },
+                    "documents": {
+                        "@id": "polygon-vocab:documents",
+                        "@type": "xsd:string"
+                    },
+                    "specificationCertificates": {
+                        "@id": "polygon-vocab:specificationCertificates",
+                        "@type": "xsd:string"
+                    },
+                    "specifications": {
+                        "@id": "polygon-vocab:specifications",
+                        "@type": "xsd:string"
+                    },
+                    "composition": {
+                        "@id": "polygon-vocab:composition",
+                        "@type": "xsd:string"
+                    },
+                    "lcaUrl": {
+                        "@id": "polygon-vocab:lcaUrl",
+                        "@type": "xsd:string"
+                    },
+                    "ciScore": {
+                        "@id": "polygon-vocab:ciScore",
+                        "@type": "xsd:string"
+                    },
+                    "traceableLables": {
+                        "@id": "polygon-vocab:traceableLables",
+                        "@type": "xsd:string"
+                    }
+                },
+                "@id": "urn:uuid:c109cda4-ad42-4f39-b403-7660774b1623"
+            }
+        }
+    ]
+}
