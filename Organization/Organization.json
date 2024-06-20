@@ -1,7 +1,7 @@
 {
     "$metadata": {
         "uris": {
-            "jsonLdContext": "https://raw.githubusercontent.com/impactility-dev/test-polygon/main/Organization.jsonld"
+            "jsonLdContext": "https://raw.githubusercontent.com/impactility-dev/test-polygon/main/Organization/Organization.jsonld"
         },
         "version": "1.0",
         "type": "Organization"
