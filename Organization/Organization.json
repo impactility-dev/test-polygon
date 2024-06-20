@@ -3,7 +3,7 @@
         "uris": {
             "jsonLdContext": "https://raw.githubusercontent.com/impactility-dev/test-polygon/main/Organization/Organization.jsonld"
         },
-        "version": "1.0",
+        "version": "1.1",
         "type": "Organization"
     },
     "$schema": "https://json-schema.org/draft/2020-12/schema",
@@ -14,12 +14,6 @@
             "description": "Stores the data of the credential",
             "title": "Credential subject",
             "properties": {
-                "id": {
-                    "description": "Stores the DID of the subject that owns the credential",
-                    "title": "Credential subject ID",
-                    "format": "uri",
-                    "type": "string"
-                },
                 "name": {
                     "description": "Name of the organization",
                     "title": "Name of the organization",
@@ -90,15 +84,37 @@
                             "description": "Last Name of the Admin",
                             "title": "Last Name of the Admin",
                             "type": "string"
+                        },
+                        "imageUrl": {
+                            "description": "Profile Image Url of the User",
+                            "title": "Profile Image Url of the User",
+                            "type": "string"
                         }
                     },
                     "required": [
                         "firstName",
                         "email",
                         "phoneNumber",
-                        "lastName"
+                        "lastName",
+                        "imageUrl"
                     ],
                     "type": "object"
+                },
+                "id": {
+                    "description": "Stores the DID of the subject that owns the credential",
+                    "title": "Credential subject ID",
+                    "format": "uri",
+                    "type": "string"
+                },
+                "phoneNumber": {
+                    "description": "Phone Number of the Organization",
+                    "title": "Phone Number of the Organization",
+                    "type": "string"
+                },
+                "licenseType": {
+                    "description": "License Type of the Organization",
+                    "title": "License Type of the Organization",
+                    "type": "string"
                 }
             },
             "required": [
@@ -107,7 +123,9 @@
                 "website",
                 "corporateID",
                 "address",
-                "admin"
+                "admin",
+                "phoneNumber",
+                "licenseType"
             ],
             "type": "object"
         },
