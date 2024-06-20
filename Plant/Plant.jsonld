@@ -9,7 +9,7 @@
                 "@context": {
                     "@propagate": true,
                     "@protected": true,
-                    "polygon-vocab": "urn:uuid:fced7106-b8a3-404a-9195-f880f0e8b137#",
+                    "polygon-vocab": "urn:uuid:57ce6810-3951-413d-aad1-5e2b81f19d30#",
                     "xsd": "http://www.w3.org/2001/XMLSchema#",
                     "facilityName": {
                         "@id": "polygon-vocab:facilityName",
@@ -59,9 +59,17 @@
                             }
                         },
                         "@id": "polygon-vocab:location"
+                    },
+                    "contactNumber": {
+                        "@id": "polygon-vocab:contactNumber",
+                        "@type": "xsd:string"
+                    },
+                    "images": {
+                        "@id": "polygon-vocab:images",
+                        "@type": "xsd:string"
                     }
                 },
-                "@id": "urn:uuid:53cfa101-dd8e-47bd-a622-78ce2912b1de"
+                "@id": "urn:uuid:02797997-a97d-4ec9-a5ff-e1fb3156c8ca"
             }
         }
     ]
