@@ -3,7 +3,7 @@
         "uris": {
             "jsonLdContext": "https://raw.githubusercontent.com/impactility-dev/test-polygon/main/Product/Product.jsonld"
         },
-        "version": "1.0",
+        "version": "1.1",
         "type": "Product"
     },
     "$schema": "https://json-schema.org/draft/2020-12/schema",
@@ -14,12 +14,6 @@
             "description": "Stores the data of the credential",
             "title": "Credential subject",
             "properties": {
-                "id": {
-                    "description": "Stores the DID of the subject that owns the credential",
-                    "title": "Credential subject ID",
-                    "format": "uri",
-                    "type": "string"
-                },
                 "productName": {
                     "description": "Name of the Product",
                     "title": "Name of the Product",
@@ -99,6 +93,22 @@
                     "description": "Traceable Labels of the Product",
                     "title": "Traceable Labels of the Product",
                     "type": "string"
+                },
+                "id": {
+                    "description": "Stores the DID of the subject that owns the credential",
+                    "title": "Credential subject ID",
+                    "format": "uri",
+                    "type": "string"
+                },
+                "materialCode": {
+                    "description": "Material code of the Product",
+                    "title": "Material code of the Product",
+                    "type": "string"
+                },
+                "sustainabilityCertificate": {
+                    "description": "Sustainability Certificate of the product - URL",
+                    "title": "Sustainability Certificate of the product",
+                    "type": "string"
                 }
             },
             "required": [
@@ -117,7 +127,9 @@
                 "composition",
                 "lcaUrl",
                 "ciScore",
-                "traceableLables"
+                "traceableLables",
+                "materialCode",
+                "sustainabilityCertificate"
             ],
             "type": "object"
         },
