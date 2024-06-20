@@ -3,7 +3,7 @@
         "uris": {
             "jsonLdContext": "https://raw.githubusercontent.com/impactility-dev/test-polygon/main/Plant/Plant.jsonld"
         },
-        "version": "2.0",
+        "version": "2.1",
         "type": "Plant"
     },
     "$schema": "https://json-schema.org/draft/2020-12/schema",
