@@ -9,7 +9,7 @@
                 "@context": {
                     "@propagate": true,
                     "@protected": true,
-                    "polygon-vocab": "urn:uuid:592d7b0f-afeb-42fe-a97a-ac3ccafd2ca3#",
+                    "polygon-vocab": "urn:uuid:a43fc41c-8abf-4e08-a1a8-f495fd96e229#",
                     "xsd": "http://www.w3.org/2001/XMLSchema#",
                     "productName": {
                         "@id": "polygon-vocab:productName",
@@ -74,9 +74,17 @@
                     "traceableLables": {
                         "@id": "polygon-vocab:traceableLables",
                         "@type": "xsd:string"
+                    },
+                    "materialCode": {
+                        "@id": "polygon-vocab:materialCode",
+                        "@type": "xsd:string"
+                    },
+                    "sustainabilityCertificate": {
+                        "@id": "polygon-vocab:sustainabilityCertificate",
+                        "@type": "xsd:string"
                     }
                 },
-                "@id": "urn:uuid:c109cda4-ad42-4f39-b403-7660774b1623"
+                "@id": "urn:uuid:0512a018-39f4-43ff-b451-6b143cdabbe2"
             }
         }
     ]
