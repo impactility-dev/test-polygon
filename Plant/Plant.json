@@ -14,12 +14,6 @@
             "description": "Stores the data of the credential",
             "title": "Credential subject",
             "properties": {
-                "id": {
-                    "description": "Stores the DID of the subject that owns the credential",
-                    "title": "Credential subject ID",
-                    "format": "uri",
-                    "type": "string"
-                },
                 "facilityName": {
                     "description": "Name of the Facility",
                     "title": "Name of the Facility",
@@ -85,6 +79,22 @@
                         "long"
                     ],
                     "type": "object"
+                },
+                "id": {
+                    "description": "Stores the DID of the subject that owns the credential",
+                    "title": "Credential subject ID",
+                    "format": "uri",
+                    "type": "string"
+                },
+                "contactNumber": {
+                    "description": "Contact Number for Plant",
+                    "title": "Contact Number for Plant",
+                    "type": "string"
+                },
+                "images": {
+                    "description": "Images of the Plant, string array",
+                    "title": "Images of the Plant",
+                    "type": "string"
                 }
             },
             "required": [
@@ -97,7 +107,9 @@
                 "plantId",
                 "process",
                 "documents",
-                "location"
+                "location",
+                "contactNumber",
+                "images"
             ],
             "type": "object"
         },
