@@ -1,0 +1,80 @@
+{
+    "@context": [
+        {
+            "@protected": true,
+            "@version": 1.1,
+            "id": "@id",
+            "type": "@type",
+            "Plant": {
+                "@context": {
+                    "@propagate": true,
+                    "@protected": true,
+                    "polygon-vocab": "urn:uuid:f4cce711-d714-4ab1-9f69-79e7e0779000#",
+                    "xsd": "http://www.w3.org/2001/XMLSchema#",
+                    "facilityName": {
+                        "@id": "polygon-vocab:facilityName",
+                        "@type": "xsd:string"
+                    },
+                    "facilityType": {
+                        "@id": "polygon-vocab:facilityType",
+                        "@type": "xsd:string"
+                    },
+                    "registrationNumber": {
+                        "@id": "polygon-vocab:registrationNumber",
+                        "@type": "xsd:string"
+                    },
+                    "vatNumber": {
+                        "@id": "polygon-vocab:vatNumber",
+                        "@type": "xsd:string"
+                    },
+                    "address": {
+                        "@id": "polygon-vocab:address",
+                        "@type": "xsd:string"
+                    },
+                    "zipCode": {
+                        "@id": "polygon-vocab:zipCode",
+                        "@type": "xsd:string"
+                    },
+                    "plantId": {
+                        "@id": "polygon-vocab:plantId",
+                        "@type": "xsd:string"
+                    },
+                    "process": {
+                        "@id": "polygon-vocab:process",
+                        "@type": "xsd:string"
+                    },
+                    "documents": {
+                        "@id": "polygon-vocab:documents",
+                        "@type": "xsd:string"
+                    },
+                    "contactNumber": {
+                        "@id": "polygon-vocab:contactNumber",
+                        "@type": "xsd:string"
+                    },
+                    "images": {
+                        "@id": "polygon-vocab:images",
+                        "@type": "xsd:string"
+                    },
+                    "location": {
+                        "@context": {
+                            "lat": {
+                                "@id": "polygon-vocab:lat",
+                                "@type": "xsd:string"
+                            },
+                            "long": {
+                                "@id": "polygon-vocab:long",
+                                "@type": "xsd:string"
+                            }
+                        },
+                        "@id": "polygon-vocab:location"
+                    },
+                    "certificationBody": {
+                        "@id": "polygon-vocab:certificationBody",
+                        "@type": "xsd:string"
+                    }
+                },
+                "@id": "urn:uuid:00796c93-7346-443a-9518-ed37ff7b52a2"
+            }
+        }
+    ]
+}
