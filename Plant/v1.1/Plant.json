@@ -1,0 +1,214 @@
+{
+    "$metadata": {
+        "uris": {
+            "jsonLdContext": "https://raw.githubusercontent.com/impactility-dev/test-polygon/refs/heads/main/Plant/v1.1/Plant.jsonld"
+        },
+        "version": "1.1",
+        "type": "Plant"
+    },
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "description": "Schema for describing Plant ",
+    "title": "Plant",
+    "properties": {
+        "credentialSubject": {
+            "description": "Stores the data of the credential",
+            "title": "Credential subject",
+            "properties": {
+                "facilityName": {
+                    "description": "Name of the Facility",
+                    "title": "Name of the Facility",
+                    "type": "string"
+                },
+                "facilityType": {
+                    "description": "Type of the Facility",
+                    "title": "Type of the Facility",
+                    "type": "string"
+                },
+                "registrationNumber": {
+                    "description": "Registration Number of the Plant",
+                    "title": "Registration Number of the Plant",
+                    "type": "string"
+                },
+                "vatNumber": {
+                    "description": "VAT Number for Plant",
+                    "title": "VAT Number for Plant",
+                    "type": "string"
+                },
+                "address": {
+                    "description": "Address of the Plant",
+                    "title": "Address of the Plant",
+                    "type": "string"
+                },
+                "zipCode": {
+                    "description": "Zip code of the Plant",
+                    "title": "Zip code of the Plant",
+                    "type": "string"
+                },
+                "plantId": {
+                    "description": "ID of the Plant",
+                    "title": "ID of the Plant",
+                    "type": "string"
+                },
+                "process": {
+                    "description": "Process in the Plant, this will be JSON string",
+                    "title": "Process in the Plant",
+                    "type": "string"
+                },
+                "documents": {
+                    "description": "Documents of the Plant, this will be JSON string",
+                    "title": "Documents of the Plant",
+                    "type": "string"
+                },
+                "contactNumber": {
+                    "description": "Contact Number for Plant",
+                    "title": "Contact Number for Plant",
+                    "type": "string"
+                },
+                "images": {
+                    "description": "Images of the Plant, string array",
+                    "title": "Images of the Plant",
+                    "type": "string"
+                },
+                "location": {
+                    "description": "Location of the Plant",
+                    "title": "Location of the Plant",
+                    "properties": {
+                        "lat": {
+                            "description": "Latitude of the plant location",
+                            "title": "Latitude of the plant location",
+                            "type": "string"
+                        },
+                        "long": {
+                            "description": "Longitude of the plant location",
+                            "title": "Longitude of the plant location",
+                            "type": "string"
+                        }
+                    },
+                    "required": [
+                        "lat",
+                        "long"
+                    ],
+                    "type": "object"
+                },
+                "id": {
+                    "description": "Stores the DID of the subject that owns the credential",
+                    "title": "Credential subject ID",
+                    "format": "uri",
+                    "type": "string"
+                },
+                "certificationBody": {
+                    "description": "Certification Body",
+                    "title": "Certification Body",
+                    "type": "string"
+                }
+            },
+            "required": [
+                "facilityName",
+                "facilityType",
+                "registrationNumber",
+                "vatNumber",
+                "address",
+                "zipCode",
+                "plantId",
+                "process",
+                "documents",
+                "contactNumber",
+                "images",
+                "location",
+                "certificationBody"
+            ],
+            "type": "object"
+        },
+        "@context": {
+            "type": [
+                "string",
+                "array",
+                "object"
+            ]
+        },
+        "expirationDate": {
+            "format": "date-time",
+            "type": "string"
+        },
+        "id": {
+            "type": "string"
+        },
+        "issuanceDate": {
+            "format": "date-time",
+            "type": "string"
+        },
+        "issuer": {
+            "type": [
+                "string",
+                "object"
+            ],
+            "format": "uri",
+            "properties": {
+                "id": {
+                    "format": "uri",
+                    "type": "string"
+                }
+            },
+            "required": [
+                "id"
+            ]
+        },
+        "type": {
+            "type": [
+                "string",
+                "array"
+            ],
+            "items": {
+                "type": "string"
+            }
+        },
+        "credentialSchema": {
+            "properties": {
+                "id": {
+                    "format": "uri",
+                    "type": "string"
+                },
+                "type": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "id",
+                "type"
+            ],
+            "type": "object"
+        },
+        "credentialStatus": {
+            "description": "Allows the discovery of information about the current status of the credential, such as whether it is suspended or revoked.",
+            "title": "Credential Status",
+            "properties": {
+                "id": {
+                    "description": "Id URL of the credentialStatus.",
+                    "title": "Id",
+                    "format": "uri",
+                    "type": "string"
+                },
+                "type": {
+                    "description": "Expresses the credential status type (method). The value should provide enough information to determine the current status of the credential.",
+                    "title": "Type",
+                    "type": "string"
+                }
+            },
+            "required": [
+                "id",
+                "type"
+            ],
+            "type": "object"
+        }
+    },
+    "required": [
+        "credentialSubject",
+        "@context",
+        "id",
+        "issuanceDate",
+        "issuer",
+        "type",
+        "credentialSchema"
+    ],
+    "type": "object"
+}
