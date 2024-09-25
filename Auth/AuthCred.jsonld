@@ -1,0 +1,39 @@
+{
+  "@context": [
+    {
+      "@protected": true,
+      "@version": 1.1,
+      "id": "@id",
+      "type": "@type",
+      "AuthCred": {
+        "@context": {
+          "@propagate": true,
+          "@protected": true,
+          "polygon-vocab": "urn:uuid:2549adb2-c59e-476b-acc1-f56abf5028da#",
+          "xsd": "http://www.w3.org/2001/XMLSchema#",
+          "orgName": {
+            "@id": "polygon-vocab:orgName",
+            "@type": "xsd:string"
+          },
+          "sector": {
+            "@id": "polygon-vocab:sector",
+            "@type": "xsd:string"
+          },
+          "role": {
+            "@id": "polygon-vocab:role",
+            "@type": "xsd:string"
+          },
+          "orgEmail": {
+            "@id": "polygon-vocab:orgEmail",
+            "@type": "xsd:string"
+          },
+          "contactName": {
+            "@id": "polygon-vocab:contactName",
+            "@type": "xsd:string"
+          }
+        },
+        "@id": "urn:uuid:1a606c11-c0c2-40ca-9ffc-e0c0f7d57086"
+      }
+    }
+  ]
+}
