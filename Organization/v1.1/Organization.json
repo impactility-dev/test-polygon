@@ -1,0 +1,184 @@
+{
+    "$metadata": {
+        "uris": {
+            "jsonLdContext": "https://raw.githubusercontent.com/impactility-dev/test-polygon/refs/heads/main/Organization/v1.1/Organization.jsonld"
+        },
+        "version": "1.1",
+        "type": "Organization"
+    },
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "description": "Schema representing the Organization",
+    "title": "Organization",
+    "properties": {
+        "credentialSubject": {
+            "description": "Stores the data of the credential",
+            "title": "Credential subject",
+            "properties": {
+                "name": {
+                    "description": "Name of the organization",
+                    "title": "Name of the organization",
+                    "type": "string"
+                },
+                "website": {
+                    "description": "Website of the organization",
+                    "title": "Website of the organization",
+                    "type": "string"
+                },
+                "corporateID": {
+                    "description": "Corporate Identity Number of the organization",
+                    "title": "Corporate Identity Number of the organization",
+                    "type": "string"
+                },
+                "phoneNumber": {
+                    "description": "Phone Number of the Organization",
+                    "title": "Phone Number of the Organization",
+                    "type": "string"
+                },
+                "licenseType": {
+                    "description": "License Type of the Organization",
+                    "title": "License Type of the Organization",
+                    "type": "string"
+                },
+                "address": {
+                    "description": "Address of the head office",
+                    "title": "Address of the head office",
+                    "properties": {
+                        "line1": {
+                            "description": "Address Line 1",
+                            "title": "Address Line 1",
+                            "type": "string"
+                        },
+                        "zipcode": {
+                            "description": "ZipCode of the organization",
+                            "title": "ZipCode of the organization",
+                            "type": "string"
+                        },
+                        "country": {
+                            "description": "Country of the Organization",
+                            "title": "Country of the Organization",
+                            "type": "string"
+                        }
+                    },
+                    "required": [
+                        "line1",
+                        "zipcode",
+                        "country"
+                    ],
+                    "type": "object"
+                },
+                "id": {
+                    "description": "Stores the DID of the subject that owns the credential",
+                    "title": "Credential subject ID",
+                    "format": "uri",
+                    "type": "string"
+                },
+                "image": {
+                    "description": "Organization Image logo",
+                    "title": "Organization Image logo",
+                    "type": "string"
+                }
+            },
+            "required": [
+                "name",
+                "website",
+                "corporateID",
+                "phoneNumber",
+                "licenseType",
+                "address",
+                "image"
+            ],
+            "type": "object"
+        },
+        "@context": {
+            "type": [
+                "string",
+                "array",
+                "object"
+            ]
+        },
+        "expirationDate": {
+            "format": "date-time",
+            "type": "string"
+        },
+        "id": {
+            "type": "string"
+        },
+        "issuanceDate": {
+            "format": "date-time",
+            "type": "string"
+        },
+        "issuer": {
+            "type": [
+                "string",
+                "object"
+            ],
+            "format": "uri",
+            "properties": {
+                "id": {
+                    "format": "uri",
+                    "type": "string"
+                }
+            },
+            "required": [
+                "id"
+            ]
+        },
+        "type": {
+            "type": [
+                "string",
+                "array"
+            ],
+            "items": {
+                "type": "string"
+            }
+        },
+        "credentialSchema": {
+            "properties": {
+                "id": {
+                    "format": "uri",
+                    "type": "string"
+                },
+                "type": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "id",
+                "type"
+            ],
+            "type": "object"
+        },
+        "credentialStatus": {
+            "description": "Allows the discovery of information about the current status of the credential, such as whether it is suspended or revoked.",
+            "title": "Credential Status",
+            "properties": {
+                "id": {
+                    "description": "Id URL of the credentialStatus.",
+                    "title": "Id",
+                    "format": "uri",
+                    "type": "string"
+                },
+                "type": {
+                    "description": "Expresses the credential status type (method). The value should provide enough information to determine the current status of the credential.",
+                    "title": "Type",
+                    "type": "string"
+                }
+            },
+            "required": [
+                "id",
+                "type"
+            ],
+            "type": "object"
+        }
+    },
+    "required": [
+        "credentialSubject",
+        "@context",
+        "id",
+        "issuanceDate",
+        "issuer",
+        "type",
+        "credentialSchema"
+    ],
+    "type": "object"
+}
