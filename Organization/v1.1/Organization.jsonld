@@ -1,0 +1,60 @@
+{
+    "@context": [
+        {
+            "@protected": true,
+            "@version": 1.1,
+            "id": "@id",
+            "type": "@type",
+            "Organization": {
+                "@context": {
+                    "@propagate": true,
+                    "@protected": true,
+                    "polygon-vocab": "urn:uuid:c7bf6c4f-56a9-4341-b6c7-ba2c408d5730#",
+                    "xsd": "http://www.w3.org/2001/XMLSchema#",
+                    "name": {
+                        "@id": "polygon-vocab:name",
+                        "@type": "xsd:string"
+                    },
+                    "website": {
+                        "@id": "polygon-vocab:website",
+                        "@type": "xsd:string"
+                    },
+                    "corporateID": {
+                        "@id": "polygon-vocab:corporateID",
+                        "@type": "xsd:string"
+                    },
+                    "phoneNumber": {
+                        "@id": "polygon-vocab:phoneNumber",
+                        "@type": "xsd:string"
+                    },
+                    "licenseType": {
+                        "@id": "polygon-vocab:licenseType",
+                        "@type": "xsd:string"
+                    },
+                    "address": {
+                        "@context": {
+                            "line1": {
+                                "@id": "polygon-vocab:line1",
+                                "@type": "xsd:string"
+                            },
+                            "zipcode": {
+                                "@id": "polygon-vocab:zipcode",
+                                "@type": "xsd:string"
+                            },
+                            "country": {
+                                "@id": "polygon-vocab:country",
+                                "@type": "xsd:string"
+                            }
+                        },
+                        "@id": "polygon-vocab:address"
+                    },
+                    "image": {
+                        "@id": "polygon-vocab:image",
+                        "@type": "xsd:string"
+                    }
+                },
+                "@id": "urn:uuid:57ba986b-1c85-482f-beb2-08fe00e2ce69"
+            }
+        }
+    ]
+}
