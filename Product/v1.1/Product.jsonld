@@ -1,0 +1,103 @@
+{
+    "@context": [
+        {
+            "@protected": true,
+            "@version": 1.1,
+            "id": "@id",
+            "type": "@type",
+            "Product": {
+                "@context": {
+                    "@propagate": true,
+                    "@protected": true,
+                    "polygon-vocab": "urn:uuid:2b8fcec5-2f78-477a-8c5c-a276ee00506b#",
+                    "xsd": "http://www.w3.org/2001/XMLSchema#",
+                    "productName": {
+                        "@id": "polygon-vocab:productName",
+                        "@type": "xsd:string"
+                    },
+                    "description": {
+                        "@id": "polygon-vocab:description",
+                        "@type": "xsd:string"
+                    },
+                    "productType": {
+                        "@id": "polygon-vocab:productType",
+                        "@type": "xsd:string"
+                    },
+                    "feedstock": {
+                        "@id": "polygon-vocab:feedstock",
+                        "@type": "xsd:string"
+                    },
+                    "certificationBody": {
+                        "@id": "polygon-vocab:certificationBody",
+                        "@type": "xsd:string"
+                    },
+                    "uom": {
+                        "@id": "polygon-vocab:uom",
+                        "@type": "xsd:string"
+                    },
+                    "creditEquivalent": {
+                        "@id": "polygon-vocab:creditEquivalent",
+                        "@type": "xsd:double"
+                    },
+                    "mintable": {
+                        "@id": "polygon-vocab:mintable",
+                        "@type": "xsd:boolean"
+                    },
+                    "imageUrl": {
+                        "@id": "polygon-vocab:imageUrl",
+                        "@type": "xsd:string"
+                    },
+                    "documents": {
+                        "@id": "polygon-vocab:documents",
+                        "@type": "xsd:string"
+                    },
+                    "specificationCertificates": {
+                        "@id": "polygon-vocab:specificationCertificates",
+                        "@type": "xsd:string"
+                    },
+                    "specifications": {
+                        "@id": "polygon-vocab:specifications",
+                        "@type": "xsd:string"
+                    },
+                    "composition": {
+                        "@id": "polygon-vocab:composition",
+                        "@type": "xsd:string"
+                    },
+                    "lcaUrl": {
+                        "@id": "polygon-vocab:lcaUrl",
+                        "@type": "xsd:string"
+                    },
+                    "ciScore": {
+                        "@id": "polygon-vocab:ciScore",
+                        "@type": "xsd:string"
+                    },
+                    "traceableLables": {
+                        "@id": "polygon-vocab:traceableLables",
+                        "@type": "xsd:string"
+                    },
+                    "materialCode": {
+                        "@id": "polygon-vocab:materialCode",
+                        "@type": "xsd:string"
+                    },
+                    "sustainabilityCertificate": {
+                        "@id": "polygon-vocab:sustainabilityCertificate",
+                        "@type": "xsd:string"
+                    },
+                    "landUsage": {
+                        "@id": "polygon-vocab:landUsage",
+                        "@type": "xsd:string"
+                    },
+                    "waterUsage": {
+                        "@id": "polygon-vocab:waterUsage",
+                        "@type": "xsd:string"
+                    },
+                    "co2Equivalent": {
+                        "@id": "polygon-vocab:co2Equivalent",
+                        "@type": "xsd:string"
+                    }
+                },
+                "@id": "urn:uuid:e77c5eaa-0a8a-4e25-8dfc-384ccb616b0f"
+            }
+        }
+    ]
+}
