@@ -1,0 +1,119 @@
+{
+    "@context": [
+        {
+            "@protected": true,
+            "@version": 1.1,
+            "id": "@id",
+            "type": "@type",
+            "Product": {
+                "@context": {
+                    "@propagate": true,
+                    "@protected": true,
+                    "polygon-vocab": "urn:uuid:127d6c97-c9f9-459c-a1ba-48c474dc2130#",
+                    "xsd": "http://www.w3.org/2001/XMLSchema#",
+                    "productName": {
+                        "@id": "polygon-vocab:productName",
+                        "@type": "xsd:string"
+                    },
+                    "description": {
+                        "@id": "polygon-vocab:description",
+                        "@type": "xsd:string"
+                    },
+                    "productType": {
+                        "@id": "polygon-vocab:productType",
+                        "@type": "xsd:string"
+                    },
+                    "feedstock": {
+                        "@id": "polygon-vocab:feedstock",
+                        "@type": "xsd:string"
+                    },
+                    "certificationBody": {
+                        "@id": "polygon-vocab:certificationBody",
+                        "@type": "xsd:string"
+                    },
+                    "uom": {
+                        "@id": "polygon-vocab:uom",
+                        "@type": "xsd:string"
+                    },
+                    "creditEquivalent": {
+                        "@id": "polygon-vocab:creditEquivalent",
+                        "@type": "xsd:double"
+                    },
+                    "mintable": {
+                        "@id": "polygon-vocab:mintable",
+                        "@type": "xsd:boolean"
+                    },
+                    "imageUrl": {
+                        "@id": "polygon-vocab:imageUrl",
+                        "@type": "xsd:string"
+                    },
+                    "documents": {
+                        "@id": "polygon-vocab:documents",
+                        "@type": "xsd:string"
+                    },
+                    "specificationCertificates": {
+                        "@id": "polygon-vocab:specificationCertificates",
+                        "@type": "xsd:string"
+                    },
+                    "specifications": {
+                        "@id": "polygon-vocab:specifications",
+                        "@type": "xsd:string"
+                    },
+                    "composition": {
+                        "@id": "polygon-vocab:composition",
+                        "@type": "xsd:string"
+                    },
+                    "lcaUrl": {
+                        "@id": "polygon-vocab:lcaUrl",
+                        "@type": "xsd:string"
+                    },
+                    "ciScore": {
+                        "@id": "polygon-vocab:ciScore",
+                        "@type": "xsd:string"
+                    },
+                    "traceableLables": {
+                        "@id": "polygon-vocab:traceableLables",
+                        "@type": "xsd:string"
+                    },
+                    "materialCode": {
+                        "@id": "polygon-vocab:materialCode",
+                        "@type": "xsd:string"
+                    },
+                    "sustainabilityCertificate": {
+                        "@id": "polygon-vocab:sustainabilityCertificate",
+                        "@type": "xsd:string"
+                    },
+                    "landUsage": {
+                        "@id": "polygon-vocab:landUsage",
+                        "@type": "xsd:string"
+                    },
+                    "waterUsage": {
+                        "@id": "polygon-vocab:waterUsage",
+                        "@type": "xsd:string"
+                    },
+                    "co2Equivalent": {
+                        "@id": "polygon-vocab:co2Equivalent",
+                        "@type": "xsd:string"
+                    },
+                    "climate": {
+                        "@id": "polygon-vocab:climate",
+                        "@type": "xsd:string"
+                    },
+                    "ozone": {
+                        "@id": "polygon-vocab:ozone",
+                        "@type": "xsd:string"
+                    },
+                    "acidification": {
+                        "@id": "polygon-vocab:acidification",
+                        "@type": "xsd:string"
+                    },
+                    "eutrophication": {
+                        "@id": "polygon-vocab:eutrophication",
+                        "@type": "xsd:string"
+                    }
+                },
+                "@id": "urn:uuid:8c3e87d7-8138-497c-9f72-20f37d2cf789"
+            }
+        }
+    ]
+}
