@@ -1,9 +1,9 @@
 {
     "$metadata": {
         "uris": {
-            "jsonLdContext": "https://raw.githubusercontent.com/impactility-dev/test-polygon/main/Product/Product.jsonld"
+            "jsonLdContext": "https://raw.githubusercontent.com/impactility-dev/test-polygon/refs/heads/main/Product/v1.2/Product.jsonld"
         },
-        "version": "1.0",
+        "version": "1.2",
         "type": "Product"
     },
     "$schema": "https://json-schema.org/draft/2020-12/schema",
@@ -94,12 +94,6 @@
                     "title": "Traceable Labels of the Product",
                     "type": "string"
                 },
-                "id": {
-                    "description": "Stores the DID of the subject that owns the credential",
-                    "title": "Credential subject ID",
-                    "format": "uri",
-                    "type": "string"
-                },
                 "materialCode": {
                     "description": "Material code of the Product",
                     "title": "Material code of the Product",
@@ -108,6 +102,47 @@
                 "sustainabilityCertificate": {
                     "description": "Sustainability Certificate of the product - URL",
                     "title": "Sustainability Certificate of the product",
+                    "type": "string"
+                },
+                "landUsage": {
+                    "description": "Land Usage",
+                    "title": "Land Usage",
+                    "type": "string"
+                },
+                "waterUsage": {
+                    "description": "Water Usage",
+                    "title": "Water Usage",
+                    "type": "string"
+                },
+                "co2Equivalent": {
+                    "description": "Co2 equivalent",
+                    "title": "Co2 equivalent",
+                    "type": "string"
+                },
+                "id": {
+                    "description": "Stores the DID of the subject that owns the credential",
+                    "title": "Credential subject ID",
+                    "format": "uri",
+                    "type": "string"
+                },
+                "climate": {
+                    "description": "Climate Change (total fossil, biogenic & land use)",
+                    "title": "Climate Change (total fossil, biogenic & land use)",
+                    "type": "string"
+                },
+                "ozone": {
+                    "description": "Ozone Depletion",
+                    "title": "Ozone Depletion",
+                    "type": "string"
+                },
+                "acidification": {
+                    "description": "Acidification",
+                    "title": "Acidification",
+                    "type": "string"
+                },
+                "eutrophication": {
+                    "description": "Eutrophication (freshwater)",
+                    "title": "Eutrophication (freshwater)",
                     "type": "string"
                 }
             },
@@ -129,7 +164,14 @@
                 "ciScore",
                 "traceableLables",
                 "materialCode",
-                "sustainabilityCertificate"
+                "sustainabilityCertificate",
+                "landUsage",
+                "waterUsage",
+                "co2Equivalent",
+                "climate",
+                "ozone",
+                "acidification",
+                "eutrophication"
             ],
             "type": "object"
         },
