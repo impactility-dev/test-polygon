@@ -9,7 +9,7 @@
                 "@context": {
                     "@propagate": true,
                     "@protected": true,
-                    "polygon-vocab": "urn:uuid:a43fc41c-8abf-4e08-a1a8-f495fd96e229#",
+                    "polygon-vocab": "urn:uuid:127d6c97-c9f9-459c-a1ba-48c474dc2130#",
                     "xsd": "http://www.w3.org/2001/XMLSchema#",
                     "productName": {
                         "@id": "polygon-vocab:productName",
@@ -82,9 +82,37 @@
                     "sustainabilityCertificate": {
                         "@id": "polygon-vocab:sustainabilityCertificate",
                         "@type": "xsd:string"
+                    },
+                    "landUsage": {
+                        "@id": "polygon-vocab:landUsage",
+                        "@type": "xsd:string"
+                    },
+                    "waterUsage": {
+                        "@id": "polygon-vocab:waterUsage",
+                        "@type": "xsd:string"
+                    },
+                    "co2Equivalent": {
+                        "@id": "polygon-vocab:co2Equivalent",
+                        "@type": "xsd:string"
+                    },
+                    "climate": {
+                        "@id": "polygon-vocab:climate",
+                        "@type": "xsd:string"
+                    },
+                    "ozone": {
+                        "@id": "polygon-vocab:ozone",
+                        "@type": "xsd:string"
+                    },
+                    "acidification": {
+                        "@id": "polygon-vocab:acidification",
+                        "@type": "xsd:string"
+                    },
+                    "eutrophication": {
+                        "@id": "polygon-vocab:eutrophication",
+                        "@type": "xsd:string"
                     }
                 },
-                "@id": "urn:uuid:0512a018-39f4-43ff-b451-6b143cdabbe2"
+                "@id": "urn:uuid:8c3e87d7-8138-497c-9f72-20f37d2cf789"
             }
         }
     ]
