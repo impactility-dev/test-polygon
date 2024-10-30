@@ -1,7 +1,7 @@
 {
     "$metadata": {
         "uris": {
-            "jsonLdContext": "https://example.com/path/to/file/context.jsonld"
+            "jsonLdContext": "https://raw.githubusercontent.com/impactility-dev/test-polygon/refs/heads/main/EnergyPassport/EnergyPassport.jsonld"
         },
         "version": "1.0",
         "type": "EnergyPassport"
