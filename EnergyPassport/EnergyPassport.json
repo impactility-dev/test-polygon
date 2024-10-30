@@ -72,7 +72,16 @@
                 }
             },
             "required": [
-                "passportID"
+                "passportID",
+                "modelNumber",
+                "serialNumber",
+                "batteryName",
+                "manufacturedDate",
+                "facilityId",
+                "manufacturedBy",
+                "catergory",
+                "status",
+                "weight"
             ],
             "type": "object"
         },
