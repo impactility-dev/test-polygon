@@ -3,7 +3,7 @@
         "uris": {
             "jsonLdContext": "https://raw.githubusercontent.com/impactility-dev/test-polygon/refs/heads/main/Battery%20Condition/Battery%20Condition.jsonld"
         },
-        "version": "1.0",
+        "version": "1.1",
         "type": "BatteryCondition"
     },
     "$schema": "https://json-schema.org/draft/2020-12/schema",
@@ -14,12 +14,6 @@
             "description": "Stores the data of the credential",
             "title": "Credential subject",
             "properties": {
-                "id": {
-                    "description": "Stores the DID of the subject that owns the credential",
-                    "title": "Credential subject ID",
-                    "format": "uri",
-                    "type": "string"
-                },
                 "afterlife-use-case": {
                     "description": "Afterlife use case",
                     "title": "Afterlife use case",
@@ -48,6 +42,12 @@
                 "state-of-health": {
                     "description": "State of health",
                     "title": "State of health",
+                    "type": "number"
+                },
+                "id": {
+                    "description": "Stores the DID of the subject that owns the credential",
+                    "title": "Credential subject ID",
+                    "format": "uri",
                     "type": "string"
                 }
             },
