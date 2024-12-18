@@ -9,7 +9,7 @@
                 "@context": {
                     "@propagate": true,
                     "@protected": true,
-                    "polygon-vocab": "urn:uuid:964b5650-0c8a-4d58-8dff-63fa8ca90f9d#",
+                    "polygon-vocab": "urn:uuid:fdfd3c79-f359-40cd-a32c-cf2f69b9e197#",
                     "xsd": "http://www.w3.org/2001/XMLSchema#",
                     "afterlife-use-case": {
                         "@id": "polygon-vocab:afterlife-use-case",
@@ -33,10 +33,10 @@
                     },
                     "state-of-health": {
                         "@id": "polygon-vocab:state-of-health",
-                        "@type": "xsd:string"
+                        "@type": "xsd:double"
                     }
                 },
-                "@id": "urn:uuid:e8f259be-3ec9-4ee9-9e89-29a0585293d8"
+                "@id": "urn:uuid:5c6edcf4-f352-4265-8c44-563afb3d8cf3"
             }
         }
     ]
