@@ -1,0 +1,43 @@
+{
+    "@context": [
+        {
+            "@protected": true,
+            "@version": 1.1,
+            "id": "@id",
+            "type": "@type",
+            "BatteryCondition": {
+                "@context": {
+                    "@propagate": true,
+                    "@protected": true,
+                    "polygon-vocab": "urn:uuid:964b5650-0c8a-4d58-8dff-63fa8ca90f9d#",
+                    "xsd": "http://www.w3.org/2001/XMLSchema#",
+                    "afterlife-use-case": {
+                        "@id": "polygon-vocab:afterlife-use-case",
+                        "@type": "xsd:string"
+                    },
+                    "1st-life-use-case": {
+                        "@id": "polygon-vocab:1st-life-use-case",
+                        "@type": "xsd:string"
+                    },
+                    "visual-inspection": {
+                        "@id": "polygon-vocab:visual-inspection",
+                        "@type": "xsd:string"
+                    },
+                    "source-of-module": {
+                        "@id": "polygon-vocab:source-of-module",
+                        "@type": "xsd:string"
+                    },
+                    "tested": {
+                        "@id": "polygon-vocab:tested",
+                        "@type": "xsd:string"
+                    },
+                    "state-of-health": {
+                        "@id": "polygon-vocab:state-of-health",
+                        "@type": "xsd:string"
+                    }
+                },
+                "@id": "urn:uuid:e8f259be-3ec9-4ee9-9e89-29a0585293d8"
+            }
+        }
+    ]
+}
