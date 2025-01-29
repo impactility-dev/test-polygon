@@ -3,7 +3,7 @@
     "uris": {
       "jsonLdContext": "https://raw.githubusercontent.com/impactility-dev/test-polygon/refs/heads/main/BMI_json-ld.jsonld"
     },
-    "version": "1.1",
+    "version": "1.0",
     "type": "BMI"
   },
   "$schema": "https://json-schema.org/draft/2020-12/schema",
@@ -91,7 +91,7 @@
     },
     "credentialSubject": {
       "type": "object",
-      "title": "Credential Subject",
+      "title": "Credential subject",
       "description": "Stores the data of the credential",
       "properties": {
         "id": {
@@ -120,13 +120,28 @@
             "height",
             "weight"
           ]
+        },
+        "colestrol": {
+          "type": "string",
+          "title": "Colestrol",
+          "description": "colestrol in percentage"
         }
       },
-      "required": []
+      "required": [
+        "bmi"
+      ]
     }
   },
-  "required": [],
+  "required": [
+    "credentialSubject",
+    "@context",
+    "id",
+    "issuanceDate",
+    "issuer",
+    "type",
+    "credentialSchema"
+  ],
   "type": "object",
-  "title": "BMI",
+  "title": "Bmi",
   "description": "This is a BMI report"
 }
