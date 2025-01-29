@@ -1,7 +1,7 @@
 {
   "$metadata": {
     "uris": {
-      "jsonLdContext": "https://example.com/path/to/file/context.jsonld"
+      "jsonLdContext": "https://raw.githubusercontent.com/impactility-dev/test-polygon/refs/heads/main/BMI_json-ld.jsonld"
     },
     "version": "1.1",
     "type": "BMI"
