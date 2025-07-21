@@ -1,0 +1,31 @@
+{
+  "@context": [
+    {
+      "@protected": true,
+      "@version": 1.1,
+      "id": "@id",
+      "type": "@type",
+      "Employee": {
+        "@context": {
+          "@propagate": true,
+          "@protected": true,
+          "iden3-vocab": "urn:uuid:931eddcd-abcc-4826-9255-b60b4893c2ef#",
+          "xsd": "http://www.w3.org/2001/XMLSchema#",
+          "name": {
+            "@id": "iden3-vocab:name",
+            "@type": "xsd:string"
+          },
+          "eligibleForBonus": {
+            "@id": "iden3-vocab:eligibleForBonus",
+            "@type": "xsd:boolean"
+          },
+          "height": {
+            "@id": "iden3-vocab:height",
+            "@type": "xsd:integer"
+          }
+        },
+        "@id": "urn:uuid:1eb8b21f-5fe7-4604-b343-3947d84426bb"
+      }
+    }
+  ]
+}
