@@ -25,11 +25,11 @@
           },
           "positiveScore": {
             "@id": "iden3-vocab:positiveScore",
-            "@type": "xsd:decimal"
+            "@type": "xsd:double"
           },
           "negativeScore": {
             "@id": "iden3-vocab:negativeScore",
-            "@type": "xsd:decimal"
+            "@type": "xsd:double"
           }
         },
         "@id": "urn:uuid:7e5e9fb7-45c2-4980-988f-4c7f93a2232d"
