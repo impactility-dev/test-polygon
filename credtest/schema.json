@@ -2,7 +2,7 @@
   "$metadata": {
     "type": "CredTestType",
     "uris": {
-      "jsonLdContext": "https://example.com/path/to/file/context.jsonld"
+      "jsonLdContext": "https://raw.githubusercontent.com/impactility-dev/test-polygon/refs/heads/main/credtest/schema.jsonld"
     },
     "version": "1.0"
   },
