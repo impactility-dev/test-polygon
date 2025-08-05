@@ -1,0 +1,23 @@
+{
+  "@context": [
+    {
+      "@protected": true,
+      "@version": 1.1,
+      "id": "@id",
+      "type": "@type",
+      "CredTestType": {
+        "@context": {
+          "@propagate": true,
+          "@protected": true,
+          "iden3-vocab": "urn:uuid:ef17413a-d30c-4884-8230-f65d12749af6#",
+          "xsd": "http://www.w3.org/2001/XMLSchema#",
+          "Index": {
+            "@id": "iden3-vocab:Index",
+            "@type": "xsd:double"
+          }
+        },
+        "@id": "urn:uuid:a03a5acb-3848-4299-96eb-0963dbb30907"
+      }
+    }
+  ]
+}
