@@ -1,0 +1,27 @@
+{
+  "@context": [
+    {
+      "@protected": true,
+      "@version": 1.1,
+      "id": "@id",
+      "type": "@type",
+      "HOA_Member": {
+        "@context": {
+          "@propagate": true,
+          "@protected": true,
+          "iden3-vocab": "urn:uuid:1a87d9dd-c21d-4f3a-bb1a-7d6241f16300#",
+          "xsd": "http://www.w3.org/2001/XMLSchema#",
+          "Name": {
+            "@id": "iden3-vocab:Name",
+            "@type": "xsd:string"
+          },
+          "Housenumber": {
+            "@id": "iden3-vocab:Housenumber",
+            "@type": "xsd:string"
+          }
+        },
+        "@id": "urn:uuid:5e818cbf-1f3c-480a-a8dc-2390542c6938"
+      }
+    }
+  ]
+}
